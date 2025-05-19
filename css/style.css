@@ -1,37 +1,42 @@
-/* ID selector */
-#main-header {
-    background-color: #4CAF50;
-    color: white;
-    text-align: center;
-    padding: 20px;
-    font-family: 'Arial', sans-serif;
-  }
-  
-  /* Class selector */
-  .intro {
+/* Selector 1: Class selector */
+.main-heading {
     font-family: 'Georgia', serif;
-    color: #333;
-    margin: 30px;
-    padding: 20px;
-    border: 2px solid #ccc;
-    background-color: #f9f9f9;
-  }
-  
-  /* Element selector */
-  footer {
+    color: #2c3e50;
     text-align: center;
-    margin-top: 50px;
-    padding: 15px;
-    background-color: #222;
-    color: #fff;
+    margin-bottom: 20px;
   }
   
-  /* Styling an image */
-  .featured-image {
+  /* Selector 2: ID selector */
+  #intro {
+    font-size: 18px;
+    color: #555;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  /* Selector 3: Element selector */
+  body {
+    background-color: red;
+    font-family: Arial, sans-serif;
+    margin: 40px;
+  }
+  
+  /* Style an image */
+  .styled-image {
     display: block;
-    margin: 20px auto;
-    border: 5px solid #4CAF50;
+    margin: 0 auto 20px;
+    border: 5px solid #3498db;
     padding: 10px;
     border-radius: 10px;
+  }
+  
+  /* Styling with box model (margin, padding, border) */
+  .content-box {
+    background-color: white;
+    border: 2px solid #ccc;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 600px;
+    border-radius: 5px;
   }
   
